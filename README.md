@@ -1,11 +1,12 @@
 # Mini-Tenor Guitar
 
-![3d image of the tenor guitar](tenor-image.png)
+![3d image of the tenor guitar](tenor-top.jpg)
 
 This is a mini-sized 4-string tenor guitar, intended to be strung using either nylon strings, or extra-light
 gauge metal strings.
 
 Everything is printed, _except_:
+
 * a set of tuners with 10mm posts. (I use [these](https://www.amazon.com/gp/product/B0789YL6JF/ref=ppx_yo_dt_b_search_asin_image?ie=UTF8&psc=1).)
 * A set of nylon guitar strings.
 * A 12 1/4 inch truss rod (I used [this from StewMac](https://www.amazon.com/gp/product/B07HPBZ3NH/ref=ox_sc_act_title_1?smid=A1BA2XBPZFTT2S&psc=1)).
@@ -28,6 +29,7 @@ version of the model is contained in the file "mtenor.s3d".
 
 The running the simplex model through the interpreter, you'll
 get a collection of products:
+
 * `mtenor-out-body-[ab].stl` - the printable STL files for the
   two halves of the body.
 * `mtenor-out-neck-[abc].stl` - the printable STL files for
