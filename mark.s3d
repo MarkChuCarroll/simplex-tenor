@@ -1,0 +1,14 @@
+import "shapes.s3d" as shapes
+
+
+
+fun mark_plate(width: Float, thickness: Float): Solid {
+  cuboid(width*1.2, width*1.5, thickness) -
+  shapes::mark(width, thickness)
+}
+
+
+produce("plate") {
+    mark_plate(20.0, 2.0)
+}
+
